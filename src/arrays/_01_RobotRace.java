@@ -2,7 +2,19 @@ package arrays;
 
 public class _01_RobotRace {
 	//1. make a main method
+public static void main(String[] args) {
+	
 
+int n = 10;
+int m = 5;
+
+String[][] robotArray = new String[n][];
+
+for(int i=0;i<n;i++)
+{
+    robotArray[i] = new String[m];
+}
+}
 	//2. create an array of 5 robots.
 
 	//3. use a for loop to initialize the robots.
